@@ -35,8 +35,8 @@ const writeRegistry = Utils.writeRegistry;
 const readRegistry = Utils.readRegistry;
 
 let TIMEOUT_MS           = 1000;
-let MAX_REGISTRY_LENGTH  = 15;
-let MAX_ENTRY_LENGTH     = 50;
+let MAX_REGISTRY_LENGTH  = 20;
+let MAX_ENTRY_LENGTH     = 1000000;
 let CACHE_ONLY_FAVORITE  = false;
 let DELETE_ENABLED       = true;
 let ENABLE_KEYBINDING    = true;
